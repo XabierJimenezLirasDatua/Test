@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "PruebaConexiónSQLServer", "PruebaConexiónSQLServer\PruebaConexiónSQLServer.sqlproj", "{B4BA7D8E-3F70-4A1B-B404-44E7FA8FD27A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4BA7D8E-3F70-4A1B-B404-44E7FA8FD27A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4BA7D8E-3F70-4A1B-B404-44E7FA8FD27A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4BA7D8E-3F70-4A1B-B404-44E7FA8FD27A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B4BA7D8E-3F70-4A1B-B404-44E7FA8FD27A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4BA7D8E-3F70-4A1B-B404-44E7FA8FD27A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4BA7D8E-3F70-4A1B-B404-44E7FA8FD27A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A65862DF-5889-4983-8B71-633F8A9D05DD}
+	EndGlobalSection
+EndGlobal

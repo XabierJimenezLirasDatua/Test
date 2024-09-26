@@ -1,0 +1,5 @@
+﻿CREATE SCHEMA [dta]
+    AUTHORIZATION [dbo];
+
+
+

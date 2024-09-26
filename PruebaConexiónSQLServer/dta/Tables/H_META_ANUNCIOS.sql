@@ -1,0 +1,25 @@
+﻿CREATE TABLE [dta].[H_META_ANUNCIOS] (
+    [IdCampaña]                    NVARCHAR (100) NOT NULL, 
+    [Campaña]                      NVARCHAR (MAX) NOT NULL,
+    [Fecha]                        DATE           NOT NULL,
+    [Clicks]                       INT            NOT NULL,
+    [Clicks de salida]             INT            NULL,
+    [CTR]                          FLOAT (53)     NOT NULL,
+    [Impresiones]                  INT            NOT NULL,
+    [Alcance]                      INT            NOT NULL,
+    [Visualizaciones]              FLOAT (53)     NULL,
+    [Coste]                        FLOAT (53)     NOT NULL,
+    [ROAS]                         FLOAT (53)     NOT NULL,
+    [Plataforma]                   NVARCHAR (100) NOT NULL,
+    [Publicación de la plataforma] NVARCHAR (100) NOT NULL,
+    [Añadidos al carro]            INT            NULL,
+    [Compras]                      INT            NULL,
+    [Información de pago]          INT            NULL,
+    [Pago iniciado]                INT            NULL,
+    [Subscriptor]                  INT            NULL,
+    [Contenido visto]              INT            NULL,
+    [Productos customizados]       INT            NULL,
+    [Registro completado]          INT            NULL,
+    CONSTRAINT [H_META_ANUNCIOS_PK] PRIMARY KEY CLUSTERED ([IdCampaña] ASC, [Fecha] ASC, [Plataforma] ASC, [Publicación de la plataforma] ASC)
+);
+
